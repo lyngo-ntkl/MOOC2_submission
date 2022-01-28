@@ -14,13 +14,13 @@ h1 {
 }
 
 h2 {
-    text-transform: uppercase;
     color: rgb(21, 114, 161);
 }
 
 a {
     color: rgb(21, 114, 161);
     color: rgb(0,0,0);
+    font-weight: bold;
 }
 
 header {
