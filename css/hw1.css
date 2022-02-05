@@ -4,11 +4,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-a{
-    color: rgb(0,0,0);
-    font-weight: bold;
-}
-
 main{
     display: flex;
     flex-direction: row;
