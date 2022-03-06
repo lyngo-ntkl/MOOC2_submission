@@ -2,6 +2,165 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: cursive;
+}
+
+a{
+    color: rgb(0,0,0);
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 2vh;
+}
+
+.left {
+    width: 20%;
+    background-color: rgb(116, 172, 125);
+    /* padding: 1% 1%; */
+}
+
+.left img{
+    /*The same effect
+    display: flex;
+    justify-content: center;
+
+    */
+    clear: both;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border: solid rgb(80, 56, 51) 5px;
+    padding: 0px;
+    margin: 2vh auto;
+}
+
+.right{
+    width: 60%;
+    padding: 0 3vh;
+    margin: 0 2vh;
+}
+
+header{
+    min-height: 25vh;
+    padding: 2vh;
+    margin: 0 2vh;
+    background: linear-gradient(rgb(26, 163, 60),rgb(198, 212, 19), rgb(4, 108, 65));
+    background-image:url(../images/flywheel.jpg);
+    background-size: cover;
+}
+
+header h1 {
+    text-transform: uppercase;
+    color: rgb(255,255,255);
+    text-align: center;
+    padding-top: 2vh;
+}
+
+nav{
+    background-color: transparent;
+    margin: 5vh 0;
+}
+
+nav a{
+    clear: both;
+    display: inline-block;
+    width: 10vw;
+    margin: 0 auto;
+    background-color: rgba(116, 172, 125,0.75);
+    color: rgb(255, 255, 255);    
+    text-decoration: none;
+    text-align: center;
+    padding: 2vh 5vh;
+    margin: 0 3vw;
+    border-radius: 1vh;
+    transition: 1s;
+}
+
+nav a:hover, nav a:focus{
+    text-decoration: underline;
+    color: rgb(91, 165, 158);
+    background-color: rgb(253, 250, 241);
+    
+}
+
+.active{
+    font-weight: bold;
+    color: rgb(80, 56, 51);
+    background-color: rgba(250, 244, 231, 0.75);
+    text-transform: uppercase;
+}
+
+h2 {
+    color: rgb(91, 165, 158);
+}
+
+.right table{
+    border-radius: 2vh;
+    -webkit-border-radius: 2vh;
+    margin: 2vh;
+    width: 95%;
+    border-spacing: 2px;
+    border-collapse: collapse;
+}
+
+.right table tr:nth-child(odd){
+    background-color: rgba(91, 165, 158,0.8);
+    color:rgb(255, 255, 255);
+    transition: 0.5s;
+}
+
+.right table tr:nth-child(odd):hover{
+    background-color: rgba(91, 165, 158,1);
+    color:rgb(244, 242, 251));
+}
+
+.right table tr:nth-child(even){
+    background-color: rgba(255, 255, 255, 0.774);
+    color:rgb(80, 56, 51);
+    transition: 0.5s;
+}
+
+.right table tr:nth-child(even):hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0,0,0);
+}
+
+.right table tr:first-child{
+    border-radius: 2vh 2vh 0 0;
+    -webkit-border-radius: 2vh 2vh 0 0;
+    border-bottom: 2px solid rgb(114, 207, 198);
+    background-color: rgba(91, 165, 158);
+}
+
+.right table tr:first-of-type th:nth-child(1){
+    border-radius: 2vh 0 0 0;
+    -webkit-border-radius: 2vh 0 0 0;
+}
+
+.right table tr:first-of-type th:nth-child(3){
+    border-radius: 0 2vh 0 0;
+    -webkit-border-radius: 0 2vh 0 0;
+}
+
+.right table td, th{
+    padding: 2vh;
+    text-align: center;
+}
+
+.right table tr td,th:first-of-type{
+    text-align: left;
+}
+
+/*
+-------------------WEEK 2--------------------
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main{
@@ -81,7 +240,7 @@ nav a:hover, nav a:focus{
 
 h2 {
     color: rgb(91, 165, 158);
-}
+}*/
 /* 
 -------------------- WEEK 1 -------------------------------
 body {
